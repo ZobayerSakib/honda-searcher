@@ -16,18 +16,45 @@
 
 <body>
     <header>
-        <section class="header-box text-white">
-            <div class="row justify-content-center">
-                <div class="col-lg-5">
+        <section class="header-box text-white p-lg-5 p-3">
+            <div class="row">
+                <div class="col-lg-5 p-lg-5 col-sm-12">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
                     <h1>Honda CBR 300R</h1>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                         duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button type="button" class="btn header-btn">Purchase</button>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn colorful-btn" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Parchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade text-dark" id="staticBackdrop" data-bs-backdrop="static"
+                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Sakib's Honda Factory</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you fast time in our Factory?
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Choose
+                                        later</button>
+                                    <button type="button" class="btn btn-primary">Yes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7 col-sm-12 mt-4">
                     <div class="header-img">
-                        <img width="552" height="447" src="images/header-bike.png" alt="">
+                        <img width="88%" height="500" src="images/header-bike.png" alt="">
                     </div>
                 </div>
 
@@ -36,7 +63,90 @@
 
     </header>
     <main>
+        <!-- feature-bike section -->
 
+        <section class="bike-feature mt-5">
+            <div class="bike-feature-title text-center m-auto">
+                <h1 class="mb-1">Fetured Bikes 2021</h1>
+                <p class="text-danger">Best bike collection </p>
+
+            </div>
+            <div class="bikes container-lg ">
+                <div class="row mt-5 mb-4">
+                    <div class="col-lg-4 mt-5 d-flex justify-content-center grayscale">
+                        <img width="288" height="243" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 mt-5 d-flex justify-content-center">
+                        <img width="288" height="243" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 mt-5 d-flex justify-content-center grayscale">
+                        <img width="288" height="243" src="images/feature-bike.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Bike Section -->
+
+        <section class="latest-bike mt-5">
+            <div class="latest-bike-title text-center">
+                <h1>Latest Bike News</h1>
+            </div>
+            <div class="container-lg mt-5 d-lg-flex">
+                <div class="mt-4 m-lg-4 justify-content-sm-center">
+                    <div class="col-lg-4">
+                        <div class="card " style="width: 18rem;">
+                            <div class="card-img-box m-3">
+                                <img width="85%" src="images/bike-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn colorful-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 m-lg-4">
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-img-box m-3">
+                                <img width="85%" src="images/bike-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn colorful-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 m-lg-4">
+                    <div class="col-lg-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-img-box m-3">
+                                <img width="85%" src="images/bike-1.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the
+                                    card's content.</p>
+                                <a href="#" class="btn colorful-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
