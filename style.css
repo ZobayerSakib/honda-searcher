@@ -1,9 +1,12 @@
 body{
     font-family: 'Manrope', sans-serif;
 }
-.header-box{
-    background-color: #264653;
-    ;
+
+#home{
+    background-color: #10100f;
+}
+nav a:hover{
+border-bottom: 2px solid orange;
 }
 .margin-top-tool{
  margin-top:5rem;
